@@ -1,5 +1,5 @@
-// LM Studio server URL - change this if your server runs on a different address
-const LM_STUDIO_URL = 'http://localhost:1234/v1';
+// Use Vite proxy to avoid CORS issues - requests go through /lmstudio and get proxied to localhost:1234
+const LM_STUDIO_URL = '/lmstudio/v1';
 
 const SYSTEM_PROMPT = `You are a prompt optimization assistant. Your task is to extract structured data from natural language prompts.
 
