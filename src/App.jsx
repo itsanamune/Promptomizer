@@ -129,7 +129,7 @@ function App() {
                   </h4>
                   <p className="text-sm text-slate-400 mt-1">
                     Please start LM Studio and enable the local server on{' '}
-                    <code className="bg-slate-800 px-1 rounded">localhost:1234</code>.
+                    <code className="bg-slate-800 px-1 rounded">127.0.0.1:1234</code>.
                     The app requires a local LLM to extract structured data.
                   </p>
                   <a

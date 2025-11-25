@@ -1,4 +1,4 @@
-const LM_STUDIO_URL = 'http://localhost:1234/v1';
+const LM_STUDIO_URL = 'http://127.0.0.1:1234/v1';
 
 const SYSTEM_PROMPT = `You are a prompt optimization assistant. Your task is to extract structured data from natural language prompts.
 
@@ -30,7 +30,7 @@ export const checkLMStudioConnection = async () => {
   } catch (error) {
     return {
       connected: false,
-      error: 'LM Studio not detected. Please start LM Studio server on localhost:1234',
+      error: 'LM Studio not detected. Please start LM Studio server on 127.0.0.1:1234',
     };
   }
 };

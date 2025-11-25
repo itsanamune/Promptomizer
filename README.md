@@ -20,7 +20,7 @@ A web application that converts natural language prompts to token-optimized stru
 3. Start the local server:
    - Go to Developer tab in LM Studio
    - Click "Start Server"
-   - Keep LM Studio running on `localhost:1234`
+   - Keep LM Studio running on `127.0.0.1:1234`
 
 ## Getting Started
 
