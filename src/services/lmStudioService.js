@@ -1,4 +1,5 @@
-const LM_STUDIO_URL = 'http://127.0.0.1:1234/v1';
+// LM Studio server URL - change this if your server runs on a different address
+const LM_STUDIO_URL = 'http://localhost:1234/v1';
 
 const SYSTEM_PROMPT = `You are a prompt optimization assistant. Your task is to extract structured data from natural language prompts.
 
